@@ -1,0 +1,124 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 2300px;
+  }
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+body {
+  background-image: url("https://blog.twitter.com/content/dam/blog-twitter/official/en_us/products/template-assets/OTB_Product_Green.png.img.fullhd.medium.png");
+}
+.alert {
+  margin: 10px;
+}
+
+.product{
+
+  &__img {
+  max-width: 180px;
+    max-height: 150px;
+  }
+  &__sidebar {
+    border: 5px solid black;
+    background-color: white;
+    padding: 0px;
+  }
+}
+
+#image_modal {
+  max-width: 180px;
+  max-height: 150px;
+}
+
+.login {
+  border: 1px solid darkgreen;
+  background-color: rgba(150, 147, 147, 0.4);
+
+  &__h3 {
+    text-align: center;
+  }
+
+}
+
+#new_product__form {
+  display: none;
+  margin: 5px;
+}
+
+.shop {
+
+  &__header{
+    text-align: right;
+    margin-right: 100px;
+  }
+  &__shoping_basket {
+    font-size: 3em;
+  }
+}
+
+.order_review {
+  text-align: center;
+
+  &__item {
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+  }
+}
+
+.alert-success {
+  text-align:center;
+  max-width: 500px;
+  margin: auto;
+}
+table {
+  margin: 10px;
+  width: 90%;
+}
+
+table,th,td {
+  border: 1px solid black;
+  text-align: center;
+  background-color: #d6d6d6;
+}
+
+.menu{
+  padding: 0px;
+}
+
+.menu li {
+  padding: 20px 0px 20px 20px;
+  list-style-type: none;
+}
+
+.menu li:hover {
+  background-color: #8d9096;
+}
+
+#new_product {
+   margin: 5px;
+}
+
+.items_counter {
+  color: white;
+}
+
+
+
